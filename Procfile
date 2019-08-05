@@ -1,0 +1,1 @@
+web: java -jar target/to_apply.jar
