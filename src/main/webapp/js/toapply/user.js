@@ -1,7 +1,7 @@
 var User = Object.create({ 
 	loadUsers:function(){
 		debugger;
-		ObjectRequest.requestByAjaxJSON("http://retain.herokuapp.com/toapply/findallUsers", null, function(response){
+		ObjectRequest.requestByAjaxJSON("https://retain.herokuapp.com/toapply/findallUsers", null, function(response){
 			debugger;
 			
 			$.each(response.lstResponse, function(idx0, elem){
